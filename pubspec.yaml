@@ -1,0 +1,33 @@
+name: flutter_demo
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to pub.dev.
+publish_to: 'none' 
+
+# The version number of your app, according to semver conventions.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add any additional dependencies you might use here
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Add the Flutter Lints package for linting
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Correct asset declaration for your images
+  assets:
+    - assets/image1.png
+    - assets/image2.png
